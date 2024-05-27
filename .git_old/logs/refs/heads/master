@@ -1,0 +1,10 @@
+0000000000000000000000000000000000000000 6e092b75598a7fed1859f3f236f2a0a563ca4b49 root <root@ubunt22.04> 1714622423 +0000	commit (initial): Initial check-in of firstgitfile
+6e092b75598a7fed1859f3f236f2a0a563ca4b49 56b13b306940f8017249e1e4e8b1fdd73e034ff9 root <root@ubunt22.04> 1714623125 +0000	commit: Second line added
+56b13b306940f8017249e1e4e8b1fdd73e034ff9 72f7bf399657f745b6f87651c428503ff40323d5 root <root@ubunt22.04> 1714625448 +0000	merge test: Fast-forward
+72f7bf399657f745b6f87651c428503ff40323d5 6a861d57b258a817c1063a597958fbab143fc073 root <root@ubunt22.04> 1714626013 +0000	commit: Added third line
+6a861d57b258a817c1063a597958fbab143fc073 6934799b0c1d1e8d38ae7aa7479e7c5a00251965 root <root@ubunt22.04> 1714626097 +0000	pull origin master: Merge made by the 'recursive' strategy.
+6934799b0c1d1e8d38ae7aa7479e7c5a00251965 f9343d477fb4cf9f31cbf04e5f83c0319ded6988 root <root@ubunt22.04> 1714626284 +0000	pull: Fast-forward
+f9343d477fb4cf9f31cbf04e5f83c0319ded6988 79149ab170da18d684d44ee706f71aa290d0ca7a root <root@ubunt22.04> 1714626437 +0000	commit: Updated file
+79149ab170da18d684d44ee706f71aa290d0ca7a 82a87ac48d3c3fccc1fbbb24222ccd8e0a637840 root <root@ubunt22.04> 1714626775 +0000	commit (merge): Merge conflicts resolved
+82a87ac48d3c3fccc1fbbb24222ccd8e0a637840 bdbb51a5f7ad68bc0999ded02890ce865e385a86 root <root@ubunt22.04> 1715152422 +0000	commit: This is a programme for leap year
+bdbb51a5f7ad68bc0999ded02890ce865e385a86 e290f4ab6b28fb6efb4e8f61887e2cadc5be3f91 root <root@ubunt22.04> 1716789548 +0000	commit: Adding pipeline file
