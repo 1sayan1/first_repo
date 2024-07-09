@@ -25,7 +25,7 @@ pipeline {
 
         stage('Apply Terraform') {
             environment {
-                ADMIN_PASSWORD = credentials('your-credentials-id') // Replace with your credentials ID
+                ADMIN_PASSWORD = credentials('Sayan@1993') // Replace with your credentials ID
             }
             steps {
                 // Apply Terraform configuration with required variables
