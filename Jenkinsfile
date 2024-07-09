@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        TF_CLI_ARGS_INIT = "-input=false"
+        PATH = "$PATH:/opt/homebrew/bin/terraform"
     }
     
     stages {
