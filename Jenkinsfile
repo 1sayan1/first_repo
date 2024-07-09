@@ -16,15 +16,20 @@ pipeline {
 
         stage('Initialize Terraform') {
             steps {
+                // Print PATH for debugging
+                sh 'echo $PATH'
                 // Initialize Terraform
                 sh 'terraform init'
             }
         }
 
         stage('Apply Terraform') {
+            environment {
+                ADMIN_PASSWORD = credentials('your-credentials-id') // Replace with your credentials ID
+            }
             steps {
-                // Apply Terraform configuration
-                sh 'terraform apply'
+                // Apply Terraform configuration with required variables
+                sh 'terraform apply -var="admin_password=${ADMIN_PASSWORD}" -auto-approve'
             }
         }
     }
