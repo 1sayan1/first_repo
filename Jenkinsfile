@@ -3,6 +3,7 @@ pipeline {
 
     environment {
         DOCKER_HOST = 'unix:///Users/sayandutta/.docker/run/docker.sock'
+        PATH = "/opt/homebrew/bin:${env.PATH}" // Add the Terraform path here
     }
 
     stages {
